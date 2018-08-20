@@ -1,9 +1,10 @@
 # Slack Bot For Github Configuration Guide 
 <!-- Place this tag where you want the button to render. -->
 <html>
-<head><script async defer src="https://buttons.github.io/buttons.js"></script>
+<head><script async defer src="https://buttons.github.io/buttons.js">
 <body>	
 <a class="github-button" href="https://github.com/Dhiraj240/Slack-Test" data-size="large" data-show-count="true" aria-label="Star Dhiraj240/Slack-Test on GitHub">Star</a>
+</script>
 </body>
 </head>
 </html>
