@@ -1,7 +1,6 @@
 # Slack Bot For Github Configuration Guide 
-<iframe src="https://ghbtns.com/github-btn.html?user=Dhiraj240&repo=Slack-Test&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
 
-
+*Star Me* *Fork me* 
 It is highly recommended to setup a virtual environment.
 You can follow [This link to install virtualenv!](https://virtualenv.pypa.io/en/latest/installation/) 
 After that typein :
