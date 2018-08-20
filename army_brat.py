@@ -2,14 +2,21 @@ import os
 import time
 from slackclient import SlackClient
 import pdb
-
-
+import webbrowser
 # starterbot's ID as an environment variable
 BOT_ID = os.environ.get("BOT_ID")
 
 # constants
 AT_BOT = "<@" + BOT_ID + ">"
-MAIN_COMMAND = "opensource"
+MAIN_COMMAND   = "https://github.com/Dhiraj240/wtfpython-web/blob/development/slackbot/Guidelines.md"
+INVITE_COMMAND = "https://wtfpython-web-invite.herokuapp.com/"
+CONTRI_COMMAND = "https://github.com/wtfpython-web/wtfpython-web/wiki/Workflow"
+CAKE_COMMAND   = "https://github.com/wtfpython-web/wtfpython-web/labels/difficulty%2Fcakewalk"
+PRO_COMMAND    = "https://github.com/wtfpython-web/wtfpython-web/labels/difficulty%2Fpro"
+INTR_COMMAND   = "https://github.com/wtfpython-web/wtfpython-web/labels/difficulty%2Fintermediate"
+TOP_COMMAND    ="https://github.com/wtfpython-web/wtfpython-web/labels/difficulty%2Ftopcoder"
+ISSUE_COMMAND  = "https://github.com/wtfpython-web/wtfpython-web/issues/new"
+ASSIGN_COMMAND = "https://girlscriptgssoc.slack.com/messages/DBE359223/"
 
 # instantiate Slack & Twilio clients
 slack_client = SlackClient(os.environ.get('SLACK_BOT_TOKEN'))
@@ -21,11 +28,24 @@ def handle_command(command, channel):
         are valid commands. If so, then acts on the commands. If not,
         returns back what it needs for clarification.
     """
-    response = "Not sure what you mean. If you want to contribute follow " + MAIN_COMMAND + \
-               " projects and learn at your own comfort"
-    
-    if command.startswith("Startproject"):
-        response = "Sure what kind of project do you want to start?"
+    response = "Please read this carefully" +"\n"+ MAIN_COMMAND 
+                   
+    if command.startswith("invite me"):
+        response = "If you want to contribute follow this link" +"\n"+ INVITE_COMMAND + "\n" + \
+                   " and get an invitation to our organisation using your github handle."
+
+    if command.startswith("guide me"):
+        response = "Read our Contributing guidelines" + "\n" + CONTRI_COMMAND
+
+    if command.startswith("issues available"):
+        response = "Newcomers Look at these issues"+"\n"+"Cake Walk Issues:"+CAKE_COMMAND+"\n"+"PRO Issues:"+PRO_COMMAND+"\n"+\
+                   "Medium Issues:"+INTR_COMMAND+"\n"+"Else feel the heat "+"\n"+"TOPCODER Issues:"+TOP_COMMAND   
+
+    if command.startswith("create issue"):
+        response = "Sure..Head on to" + "\n" + ISSUE_COMMAND 
+
+    if command.startswith("assign issue"):
+        response= "Ask SatwikKansal....Happy Coding" + "\n" + ASSIGN_COMMAND  
 
     if command.startswith("copy"):
         message = command[5:]
