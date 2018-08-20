@@ -1,6 +1,5 @@
 # Slack Bot For Github Configuration Guide 
 
-*Star Me* *Fork me* 
 It is highly recommended to setup a virtual environment.
 You can follow [This link to install virtualenv!](https://virtualenv.pypa.io/en/latest/installation/) 
 After that typein :
@@ -55,4 +54,6 @@ python army_brat.py
 
 ## Note
 
-###### The commands you are executing must be done in a virtual environment because this project has different dependencies and if you do not follow it, then there may be the case that it can hamper your someother project.
+###### The commands you are executing must be done in a virtual environment because this project has different dependencies and if you do not follow it, then there may be the case that it can hamper your someother project. 
+
+## Do Provide a *satr* or *fork* it.
