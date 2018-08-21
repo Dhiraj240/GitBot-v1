@@ -1,9 +1,8 @@
-# Slack Bot For Github Configuration Guide 
+# Slack Bot For Github Configuration Guide
 
 It is highly recommended to setup a virtual environment.
 You can follow [This link to install virtualenv!](https://virtualenv.pypa.io/en/latest/installation/) 
 After that typein :
-
 ```
 virtualenv <-any environment-name-you-want>
 
@@ -52,8 +51,10 @@ Here ```xxxxx``` is your generated BOT_ID from the above script
 python army_brat.py
 ```
 
+## Join Slack And Play with ```@army_brat``` 
+
+Add this bot to your channel and replace the code accordingly.Then head on to the link [BOT_COMMANDS_TO_BE_EXECUTED_ON_SLACK](https://github.com/Dhiraj240/Slack-Test/blob/master/Guidelines.md)
+
 ## Note
 
-###### The commands you are executing must be done in a virtual environment because this project has different dependencies and if you do not follow it, then there may be the case that it can hamper your someother project. 
-
-## Do Provide a *satr* or *fork* it.
+###### The commands you are executing must be done in a virtual environment because this project has different dependencies and if you do not follow it, then there may be the case that it can hamper your someother project.
