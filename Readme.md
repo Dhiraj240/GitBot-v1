@@ -1,5 +1,7 @@
-# Slack Bot For Github Configuration Guide
+# Slack Bot For Github Configuration Guide And Ran coala Code Analysis over it.
 
+Checkout [.coafile](/.coafile)
+Integrate [Travis Build](/.travis.yml)
 It is highly recommended to setup a virtual environment.
 You can follow [This link to install virtualenv!](https://virtualenv.pypa.io/en/latest/installation/) 
 After that typein :

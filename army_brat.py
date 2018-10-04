@@ -7,7 +7,7 @@ import webbrowser
 BOT_ID = os.environ.get("BOT_ID")
 
 # constants
-AT_BOT = "<@" + BOT_ID + ">"
+AT_BOT = "<@" + str(BOT_ID) + ">"
 MAIN_COMMAND   = "https://github.com/Dhiraj240/wtfpython-web/blob/development/slackbot/Guidelines.md"
 INVITE_COMMAND = "https://wtfpython-web-invite.herokuapp.com/"
 CONTRI_COMMAND = "https://github.com/wtfpython-web/wtfpython-web/wiki/Workflow"

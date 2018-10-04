@@ -1,0 +1,4 @@
+[cli]
+bears = SpaceConsistencyBear
+files = army_brat.py
+use_spaces = True
