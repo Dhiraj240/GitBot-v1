@@ -1,4 +1,7 @@
 [cli]
-bears = SpaceConsistencyBear
+bears = SpaceConsistencyBear,PEP8Bear
 files = army_brat.py
 use_spaces = True
+[Makefiles]
+bears = LineLengthBear
+files = Readme.md
