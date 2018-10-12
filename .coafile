@@ -4,4 +4,4 @@ files = army_brat.py
 use_spaces = True
 [Makefiles]
 bears = LineLengthBear
-files = Readme.md
+files = Guidelines.md

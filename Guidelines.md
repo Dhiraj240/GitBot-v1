@@ -1,6 +1,9 @@
 # Slack Bot For Github 
 
-This is a typical slack bot which uses Slack API to make the bot into conversation for newbies.
+This is a typical slack bot which uses Slack API.
+
+It makes the bot into conversation for newbies.
+
 Follow the steps and use @army_brat as prefix for the below commands.
 
 ## Note

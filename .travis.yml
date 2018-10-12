@@ -1,10 +1,10 @@
 language: python
 python:
-        - "3.7"
+        - "3.6"
 install:
-        - pip install -r requirements.txt
+        - pip3 install -r requirements.txt
+        - pip3 install coala
+        - pip3 install coala-bears
 
 script:
-        - python bot_id.py
-        - python army_brat.py
-
+        - coala --non-interactive
