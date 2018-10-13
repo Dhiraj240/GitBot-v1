@@ -2,6 +2,7 @@
 bears = SpaceConsistencyBear,PEP8Bear
 files = army_brat.py
 use_spaces = True
-[Makefiles]
+[Markdown]
 bears = LineLengthBear
-files = Guidelines.md
+max_line_length = 150
+md = Guideleines.md

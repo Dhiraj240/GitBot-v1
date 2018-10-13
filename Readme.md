@@ -4,6 +4,9 @@ Checkout [.coafile](/.coafile)
 
 Integrated [Travis CI](/.travis.yml)
 
+[Build Status](https://travis-ci.org/Dhiraj240/Slack-Test)
+
+
 It is highly recommended to setup a virtual environment.
 You can follow [This link to install virtualenv!](https://virtualenv.pypa.io/en/latest/installation/) 
 After that typein :
